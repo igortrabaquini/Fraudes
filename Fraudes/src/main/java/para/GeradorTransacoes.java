@@ -16,7 +16,7 @@ public class GeradorTransacoes {
             StringBuilder cpf = new StringBuilder();
 
            
-            if (random.nextInt(19) == 0) {
+            if (random.nextInt(20) == 0) {
 
               
                 cpf.append("000");
