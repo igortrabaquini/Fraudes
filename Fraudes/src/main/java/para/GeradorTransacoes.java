@@ -7,7 +7,7 @@ public class GeradorTransacoes {
     public static void gerador(ArrayList<Transacao> transacao, int quantidade){
         Random random = new Random();
 
-        for(int i = 0; i < quantidade-2; i++){
+        for(int i = 0; i < quantidade-1; i++){
             StringBuilder cpf = new StringBuilder();
 
             //Fraudes
